@@ -1,6 +1,9 @@
 body {
   /* background-color: rgb(20, 20, 20); */
   color: rgb(240, 240, 240);
+}
+
+.main {
   font-family: 'Special Elite', cursive;
   font-size: xx-large;
   max-width: 1800px;
@@ -20,4 +23,54 @@ body {
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-weight: 50;
+  margin: 0 auto;
+}
+
+.external-link-wrapper {
+  margin-left: 10vh;
+  margin-right: 10vh;
+}
+
+.external-link {
+  background-color: rgb(245, 245, 245);
+  float: right;
+  width: 10rem;
+  border-radius: 0 0 20px 20px;
+}
+
+.external-link:hover {
+  background-color: rgb(50, 50, 50);
+}
+.external-link .img-reverse {
+  display: none;
+}
+
+.external-link:hover .img-fluid {
+  display: none;
+}
+
+.external-link:hover .img-reverse {
+  display: inline;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer {
+  font-family: 'Special Elite', cursive;
+  font-size: xx-large;
+  background-color: rgb(245, 245, 245);
+  color: rgb(50, 50, 50);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+span {
+  display: inline-block;
+  padding-top: 10px;
+  transform: rotate(180deg);
 }
