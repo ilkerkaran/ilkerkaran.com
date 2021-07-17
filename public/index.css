@@ -8,6 +8,11 @@ body {
   font-size: xx-large;
   max-width: 1800px;
   margin: auto;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 107px;
 }
 
 .desc {
